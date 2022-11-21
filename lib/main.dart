@@ -58,7 +58,7 @@ class _MyButtonState extends State<MyButton> {
               new ElevatedButton(
                   style: elevatedButtonStyle,
                   onPressed: onPressButton,
-                  child: new Text("Actualizar"))
+                  child: new Text("Actualizar y Restaurar"))
             ],
           ),
         ),
@@ -66,4 +66,3 @@ class _MyButtonState extends State<MyButton> {
     );
   }
 }
-
