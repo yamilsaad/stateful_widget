@@ -43,7 +43,7 @@ class _MyButtonState extends State<MyButton> {
     return new Scaffold(
       appBar: new AppBar(
           title: new Text("Stateful Widget"),
-          backgroundColor: Colors.deepOrangeAccent),
+          backgroundColor: Colors.yellow.shade400),
       body: new Container(
         child: new Center(
           //Este widget va a centrar todo lo que esté dentro de él, es decir en el container del body!!!
